@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <main id='main-container'>
+  <header><h1>Minha Lista de Tarefas</h1></header>
+  <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+  <input type='text' id='texto-tarefa' placeholder='Escreva sua tarefa aqui'>
+  <section id='buttons-container'>
+    <button id='criar-tarefa'>ADICIONAR TAREFA <br>&#10133;</button>
+    <button id='apaga-tudo'>APAGA TODAS TAREFAS <br>&#10060;</button>
+    <button id='remover-finalizados'>REMOVER TAREFAS FINALIZADAS <br>&#127919;</button>
+    <button id='salvar-tarefas'>SALVAR TAREFAS <br>&#128204;</button>
+    <button id='remover-tarefas-salvas'>REMOVER TAREFAS SALVAS <br>&#10060;</button>
+    <button id='remover-tarefas-selecionadas'>REMOVER TAREFAS SELECIONADAS <br>&#10060;</button>
+  </section>
+  <section class="contact">
+    <h1>Vamo que Vamo!</h1>
+    <div class="contact-div">
+      <i class="fab fa-linkedin-in"><a href="">Linkedin</a></i>
+      <i class="fab fa-instagram"><a href="">Instagram</a></i>
+      <i class="fab fa-github"><a href="">GitHub</a></i>
+    </div>
+  </section>
+  <p>Mude a prioridade da sua Tarefa, selecionando-a e clicando nos botões abaixo.</p>
+  <button value='baixo' id='down'>&#11015;</button>
+  <button value='cima' id='up'>&#11014;</button>
+  <secntion id=lista-container>
+  <ol id='lista-tarefas'>
+
+  </ol>
+  </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
