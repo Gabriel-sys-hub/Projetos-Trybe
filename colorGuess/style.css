@@ -1,0 +1,118 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Cantarell, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 36, 36);
+}
+
+#letter {
+  background-color: indianred;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#answer {
+  color: white;
+  text-transform: uppercase;
+}
+
+#title {
+  color: white;
+}
+
+#white {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#rgb-color {
+  font-size: 60px;
+  color: white;
+  margin: 10px;
+}
+
+#grey {
+  background-color: rgb(65, 65, 65);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border: black solid 1px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.5s
+}
+
+.ball:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ball-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+#reset-game {
+  background-color: indianred;
+  margin: 20px;
+  width: 200px;
+  color: white;
+  height: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: ease-in-out 0.5s
+}
+
+#botoes {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#reset-game:hover {
+  transform: scale(1.2);
+}
+
+#reset-score {
+  background-color: rgb(25, 83, 209);
+  margin: 20px;
+  width: 200px;
+  color: white;
+  height: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: ease-in-out 0.5s
+}
+
+#reset-score:hover {
+  transform: scale(1.2);
+}
+
+#title {
+  font-size: 30px;
+}
