@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  margin: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: url('https://images4.alphacoders.com/126/126438.png');
+  background-attachment: fixed;
+  background-position: cover;
+}
+
+#header {
+  background-color: rgba(255, 255, 255, 0.342);
+  width: 71%;
+  max-width: 1300px;
+  text-align: center;
+}
+
+#header input {
+  width: 1200px;
+  margin: 20px;
+}
+
+.poke-container {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1300px;
+  flex-wrap: wrap;
+  background-color: rgba(248, 248, 248, 0.3);
+  margin: 20px;
+}
+
+.pokemon {
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.pokemon .img-container {
+  background-color: rgba(255, 255, 255, 0.342);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+}
+
+.pokemon .img-container img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+.pokemon .info {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.342);
+  height: 110px;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon .number {
+  background-color: rgb(250, 250, 250);
+  font-size: 0.8em;
+  padding: 2px 5px;
+}
+
+.pokemon .name {
+  padding: 5px 10px;
+}
+
+#types {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.pokemon {
+  transition: ease-in 0.3s;
+}
+
+.pokemon:hover {
+  transform: scale(1.2);
+}
+
+#search {
+  border: solid rgb(209, 209, 209) 1px;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+#search-type {
+  border: solid #d1d1d1 1px;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}

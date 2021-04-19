@@ -24,6 +24,7 @@ ballColorGenerator();
 function randomTextColor() {
   const randomColor = Math.round(Math.random() * 5);
   correctColor.innerText = balls[randomColor].style.backgroundColor;
+  console.log(balls[randomColor].style.backgroundColor)
 }
 randomTextColor();
 
