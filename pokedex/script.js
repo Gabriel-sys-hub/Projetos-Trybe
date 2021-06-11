@@ -69,7 +69,7 @@ searchBar.addEventListener('input', (event) => {
 
 function createPokemonCard(pokemon) {
   const pokemonEl = document.createElement('div');
-
+  console.log(pokemon)
   pokemonEl.classList.add('pokemon');
 
   const pokeTypes = pokemon.types.map(element => element.type.name);

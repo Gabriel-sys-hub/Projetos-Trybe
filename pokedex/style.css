@@ -44,11 +44,11 @@ body {
 }
 
 .pokemon {
-  background-color: rgb(238, 238, 238);
+ background-color: rgb(238, 238, 238);
   border-radius: 20px;
   padding: 10px;
   margin: 20px;
-  text-align: center;
+  text-align: center; 
 }
 
 .pokemon .img-container {
@@ -101,16 +101,16 @@ body {
   transform: scale(1.2);
 }
 
-#search {
+div #search {
   border: solid rgb(209, 209, 209) 1px;
   padding: 10px;
   text-align: center;
-  width: 400px;
+  width: 90%;
 }
 
-#search-type {
+div #search-type {
   border: solid #d1d1d1 1px;
   padding: 10px;
   text-align: center;
-  width: 400px;
+  width: 90%;
 }
