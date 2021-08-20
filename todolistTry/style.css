@@ -206,3 +206,46 @@ body {
   margin: 10px;
 }
 
+
+@media (max-width: 720px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #texto-tarefa {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+    padding: 0;
+    gap: 5px;
+  }
+
+  #buttons-container button {
+    width: 30%;
+    border: none;
+    font-size: 0.6rem;
+    margin: 0;
+    gap: 16px;
+  }
+
+  .contact {
+    display: none;
+  }
+}
