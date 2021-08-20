@@ -248,4 +248,8 @@ body {
   .contact {
     display: none;
   }
+
+  #lista-container {
+    width: 90%;
+  }
 }
